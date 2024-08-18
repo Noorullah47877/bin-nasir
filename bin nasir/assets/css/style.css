@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main  {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    color: #333;
+    
+}
+
+p {
+    color: #555;
+}
+
+.post, .product, .contact-info {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-info{
+  background-color: skyblue
+}
+
+
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    width: 200px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin: 15px 0 10px;
+    font-size: 1.2em;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+.product button:hover {
+    background-color: #45a049;
+}
+.price{
+  font-size: 1.1em;
+  
+  color: #e68e22;
+}
+.medicine{
+}
+.product-info{
+  background-color: cornsilk;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  
+  
+}
+.product-info p, h2{
+  color: darkred;
+  font-family: sans-serif,Arial, Helvetica, sans-serif
+}
+video{
+  width: 340;
+  margin-right: 300px;
+  padding: 300;
+  overflow: hidden;
+  overflow-wrap: wrap
+}
+h2{
+  animation-name: sl
+}
+
+
+.container .star-widget input{
+    display: none;
+    margin-bottom: 20;
+    padding-bottom: 20px;
+    float: right;
+}
+.star-widget{
+  margin: 20px;
+    direction: rtl;
+    unicode-bidi: bidi-override; 
+
+}
+
+
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+    color: #fd4;
+}
+input:checked ~ label{
+    color: #fe7;
+
+}
+input#rate-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+
+}
+
+
+input#r5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+
+}
+
+
+input#ate-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+
+}
+
+input#rte-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+
+}
+
+
+
+
+
+input#rae-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+
+}
+
+input#rat-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+
+}
+
+
+input#ra-5:checked~label {
+  color: #fe7;
+  text-shadow: 0 0 20px #952;
+
+}
+
+
+input#re-5:checked~label {
+  color: #fe7;
+  text-shadow: 0 0 20px #952;
+
+}
+
+
+input#te-5:checked~label {
+  color: #fe7;
+  text-shadow: 0 0 20px #952;
+
+}
+
+
+input#rt-5:checked~label {
+  color: #fe7;
+  text-shadow: 0 0 20px #952;
+
+}
